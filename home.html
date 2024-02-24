@@ -1,0 +1,1001 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Schlurf</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css"/> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <!--slider-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" />
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
+  </head>
+  <body>
+    
+    <header>
+      <section class="topbar">
+        <div class="container">
+          <div class="row">
+          <div class="col-md-9">
+            <div class="facilities d-flex">
+              <div class="facilitie">
+                <div class="icon">
+                  <img class="img-fluid" src="assets/images/top-bar-icon.png" alt="facilities" width="28" height="28"/>
+                </div>
+                <div class="detail">
+                  Biocertified & Made In Germany
+                </div>
+              </div>
+              <div class="facilitie">
+                <div class="icon">
+                  <img class="img-fluid" src="assets/images/top-bar-icon.png" alt="facilities" width="28" height="28"/>
+                </div>
+                <div class="detail">
+                  Premium Taste & Sustainable Packaging
+                </div>
+              </div>
+              <div class="facilitie">
+                <div class="icon">
+                  <img class="img-fluid" src="assets/images/top-bar-icon.png" alt="facilities" width="28" height="28"/>
+                </div>
+                <div class="detail">
+                  Free Shipping From 20€
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="features d-flex justify-content-end">
+            <div class="search">
+              <form class="position-relative">
+                <input class="form-control me-2" type="search" placeholder="Search store" aria-label="Search">
+                <div class="search-icon position-absolute"><i class="fa-solid fa-magnifying-glass"></i></div>
+              </form>
+            </div>
+            <div class="dropdown language">
+              <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                (EN) English
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Germany</a></li>
+                
+              </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section class="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="navigation-wraper d-flex">
+          <div class="logo">
+            <a class="navbar-brand" href="#"><img class="img-fluid" src="assets/images/logo/logo.png" alt="logo" width="130" height="48"/></a>
+          </div>
+          <nav class="navbar navbar-expand-lg ">  
+             
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span>
+                <i class="fa-solid fa-bars"></i></span>
+              </button>
+          
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <!-- Offcanvas content goes here -->
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#best-seller">Teashop</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#recipes">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#tea-flavour">Our teastory</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#tea-slider">Gastronomy</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link new" href="#">NEW</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+          </nav>
+          <div class="nav-icon d-flex">
+            <div class="user">
+              <a class="user-link" href="#"><img class="img-fluid" src="assets/images/icons/uesr.svg" alt="user" width="17" height="17"/>
+              ACCOUNT</a>
+            </div>
+            <div class="cart">
+              <button class="cart-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvascart" aria-controls="offcanvascart">
+                <span>
+                  <a class="cart-link" href="#"><img class="img-fluid" src="assets/images/icons/cart.svg" alt="cart" width="17" height="17"/>
+                    CART</a>
+              </button>
+              
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvascart" aria-labelledby="offcanvascartLabel">
+                  <div class="offcanvas-header">
+                    <div class="body-heading">Continue Shopping</div>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <!-- Offcanvas content goes here -->
+                    <div class="cart-wraper">
+                      <div class="cart-content">
+                        <div class="header">Shopping cart</div>
+                      
+                      <div class="alert">Your Shopping Cart is empty</div>
+                      <div class="action"><a class="proceed" href="#">Proceed to checkout</a>
+                      <a class="go-shop" href="#best-seller">Go to shopping cart</a>
+                      </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+      </section>
+    </header>
+    <section class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-lg-5">
+            <div class="banner-content">
+              <div class="banner-heading">
+                <h1 class="display-1 fw-bold lh-large text-white"> Tea, pure and good<span class="banner-content-dot">.</span></h1>
+              </div>
+              <div class="banner-button mt-4"><a class="banner-button-link fw-bold border-0 btn btn-lg" href="#">GET SOME TEA</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <main>
+      <section class="best-seller" id="best-seller">
+        <div class="container">
+          <div class="row">
+            <div class="section-header-content text-center">
+            <div class="section-header-heading display-5 lh-large fw-bold">
+              Best selling biocertified teas
+            </div>
+            <div class="section-header-discruption mt-3">
+              <p class="lead fs-6 lh-base fw-bold">Tea lovers be delited our assortment has 28 unique tea blends.
+                 Like any super-premium tea,
+                  we start with great organic leaves.
+                 That's why our teas are not just names,
+                 they're personalities.</p>
+            </div>
+          </div>
+           <div class="col-md-12">
+            <div class="owl-carousel owl-theme">
+              
+              <div class="item mb-4">
+               
+                  <div class="card border-0 ">
+                    <div class="product-box">
+                    <div class="image-wraper">
+                      <a class="img-link" href="#"><img class="img-fluid h-100" src="assets/images/card-image-1.png" alt="card-image" width="448" height="390"></a>
+                    </div>
+                      <div class="card-content text-center">
+                          <div class="card-title text-center">
+                              <h4 class="fs-4 fw-bold">Herr Evert´s Earl Grey</h4>
+                          </div>
+                          <div class="card-detail fs-6 fw-normal">
+                            Karton (20 Teebeutel à 2 g)
+                          </div>
+                          <div class="price-link"><a class="card-price-link fs-4 lh-base fw-bold" href="#">9,95 €</a></div>
+                      </div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="item mb-4">
+               
+                <div class="card border-0 ">
+                  <div class="product-box">
+                  <div class="image-wraper">
+                    <a class="img-link" href="#"><img class="img-fluid h-100" src="assets/images/card-image-2.png" alt="card-image" width="448" height="390"></a>
+                  </div>
+                    <div class="card-content text-center">
+                        <div class="card-title text-center">
+                            <h4 class="fs-4 fw-bold">Darjeeling Fritjof</h4>
+                        </div>
+                        <div class="card-detail fs-6 fw-normal">
+                          Karton (20 Teebeutel à 2 g)
+                        </div>
+                        <div class="price-link"><a class="card-price-link fs-4 lh-base fw-bold" href="#">3,95 €</a></div>
+                    </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="item mb-4">
+               
+              <div class="card border-0 ">
+                <div class="product-box">
+                <div class="image-wraper">
+                  <a class="img-link" href="#"><img class="img-fluid h-100" src="assets/images/card-image-3.png" alt="card-image" width="448" height="390"></a>
+                </div>
+                  <div class="card-content text-center">
+                      <div class="card-title text-center">
+                          <h4 class="fs-4 fw-bold">Beutel No. 01 Darjeeling FRITJOF</h4>
+                      </div>
+                      <div class="card-detail fs-6 fw-normal">
+                        Packung (225 g)
+                      </div>
+                      <div class="price-link"><a class="card-price-link fs-4 lh-base fw-bold" href="#">19,99 €</a></div>
+                  </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="item mb-4">
+               
+            <div class="card border-0 ">
+              <div class="product-box">
+              <div class="image-wraper">
+                <a class="img-link" href="#"><img class="img-fluid h-100" src="assets/images/card-image-1.png" alt="card-image" width="448" height="390"></a>
+              </div>
+                <div class="card-content text-center">
+                    <div class="card-title text-center">
+                        <h4 class="fs-4 fw-bold">Herr Evert´s Earl Grey</h4>
+                    </div>
+                    <div class="card-detail fs-6 fw-normal">
+                      Karton (20 Teebeutel à 2 g)
+                    </div>
+                    <div class="price-link"><a class="card-price-link fs-4 lh-base fw-bold" href="#">9,95 €</a></div>
+                </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="item mb-4">
+         
+          <div class="card border-0 ">
+            <div class="product-box">
+            <div class="image-wraper">
+              <a class="img-link" href="#"><img class="img-fluid h-100" src="assets/images/card-image-2.png" alt="card-image" width="448" height="390"></a>
+            </div>
+              <div class="card-content text-center">
+                  <div class="card-title text-center">
+                      <h4 class="fs-4 fw-bold">Darjeeling Fritjof</h4>
+                  </div>
+                  <div class="card-detail fs-6 fw-normal">
+                    Karton (20 Teebeutel à 2 g)
+                  </div>
+                  <div class="price-link"><a class="card-price-link fs-4 lh-base fw-bold" href="#">3,95 €</a></div>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="item mb-4">
+         
+        <div class="card border-0 ">
+          <div class="product-box">
+          <div class="image-wraper">
+            <a class="img-link" href="#"><img class="img-fluid h-100" src="assets/images/card-image-3.png" alt="card-image" width="448" height="390"></a>
+          </div>
+            <div class="card-content text-center">
+                <div class="card-title text-center">
+                    <h4 class="fs-4 fw-bold">Beutel No. 01 Darjeeling FRITJOF</h4>
+                </div>
+                <div class="card-detail ">
+                  Packung (225 g)
+                </div>
+                <div class="price-link"><a class="card-price-link fs-4 lh-base fw-bold" href="#">19,99 €</a></div>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+             
+
+          </div>
+          <div class="banner-button  text-center"><a class="banner-button-link fw-bold border-0 btn btn-lg" href="#">Discover more</a></div>
+           </div>
+          </div>
+        </div>
+      </section>
+      <section class="tea-flavour" id="tea-flavour">
+        <div class="container">
+          <div class="row">
+            <div class="section-header-content text-center">
+              <div class="section-header-heading display-5 lh-large fw-bold">
+                What kind of tea do you like?
+              </div>
+              <div class="section-header-discruption mt-3">
+                <p class="lead fs-6 lh-base fw-bold">
+                  There is something for everyone here! 28 large leaf teas. One variety more delicious than the next.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="flavour-wraper">
+               
+                <div class="flavour-image">
+                <a class="f-image" href="#"><img class="img-fluid w-100" src="assets/images/flavour-1.png" alt="flavour" width="326" height="326"/></a>
+               </div>
+
+                <div class="flavour-image-wraper" style="background-color: #4A2718;">
+
+                <div class="flavour-detail">
+                  <a class="detail-link" href="#">
+                <div class="flavour-title fs-3 lh-large fw-bold text-white">Black Tea</div>
+                <div class="flavour-quantity fw-bold text-white">4 sorts</div>
+                  </a>
+               </div>
+
+               <div class="forwd-icon">
+                <a class="forwd-link" href="#">
+                <i class="fa-solid fa-arrow-right"></i>
+                </a>
+               </div>
+
+               </div>
+
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="flavour-wraper">
+               
+                <div class="flavour-image">
+                <a class="f-image" href="#"><img class="img-fluid w-100" src="assets/images/flavour-2.png" alt="flavour" width="326" height="326"/></a>
+               </div>
+
+                <div class="flavour-image-wraper" style="background-color: #769D45;">
+
+                <div class="flavour-detail">
+                  <a class="detail-link" href="#">
+                <div class="flavour-title fs-3 lh-large fw-bold text-white">Green Tea</div>
+                <div class="flavour-quantity fw-bold text-white">6 sorts</div>
+                  </a>
+               </div>
+
+               <div class="forwd-icon">
+                <a class="forwd-link" href="#">
+                <i class="fa-solid fa-arrow-right"></i>
+                </a>
+               </div>
+
+               </div>
+
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="flavour-wraper">
+               
+                <div class="flavour-image">
+                <a class="f-image" href="#"><img class="img-fluid w-100" src="assets/images/flavour-3.jpg" alt="flavour" width="326" height="326"/></a>
+               </div>
+
+                <div class="flavour-image-wraper" style="background-color: #FDCE31;">
+
+                <div class="flavour-detail">
+                  <a class="detail-link" href="#">
+                <div class="flavour-title fs-3 lh-large fw-bold text-white">Herbal & Vital</div>
+                <div class="flavour-quantity fw-bold text-white">8 sorts</div>
+                  </a>
+               </div>
+
+               <div class="forwd-icon">
+                <a class="forwd-link" href="#">
+                <i class="fa-solid fa-arrow-right"></i>
+                </a>
+               </div>
+
+               </div>
+
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="flavour-wraper">
+               
+                <div class="flavour-image">
+                <a class="f-image" href="#"><img class="img-fluid w-100" src="assets/images/flavour-4.jpg" alt="flavour" width="326" height="326"/></a>
+               </div>
+
+                <div class="flavour-image-wraper" style="background-color: #EB3080;">
+
+                <div class="flavour-detail">
+                  <a class="detail-link" href="#">
+                <div class="flavour-title fs-3 lh-large fw-bold text-white">Fruit Tea</div>
+                <div class="flavour-quantity fw-bold text-white">5 sorts</div>
+                  </a>
+               </div>
+
+               <div class="forwd-icon">
+                <a class="forwd-link" href="#">
+                <i class="fa-solid fa-arrow-right"></i>
+                </a>
+               </div>
+
+               </div>
+
+              </div>
+            </div>
+
+            <!---->
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="flavour-wraper">
+               
+                <div class="flavour-image">
+                <a class="f-image" href="#"><img class="img-fluid w-100" src="assets/images/flavour-5.jpg" alt="flavour" width="326" height="326"/></a>
+               </div>
+
+                <div class="flavour-image-wraper" style="background-color: #9A2E4A;">
+
+                <div class="flavour-detail">
+                  <a class="detail-link" href="#">
+                <div class="flavour-title fs-3 lh-large fw-bold text-white">Roobios</div>
+                <div class="flavour-quantity fw-bold text-white">2 sorts</div>
+                  </a>
+               </div>
+
+               <div class="forwd-icon">
+                <a class="forwd-link" href="#">
+                <i class="fa-solid fa-arrow-right"></i>
+                </a>
+               </div>
+
+               </div>
+
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="flavour-wraper">
+               
+                <div class="flavour-image">
+                <a class="f-image" href="#"><img class="img-fluid w-100" src="assets/images/flavour-6.jpg" alt="flavour" width="326" height="326"/></a>
+               </div>
+
+                <div class="flavour-image-wraper" style="background-color: #979934;">
+
+                <div class="flavour-detail">
+                  <a class="detail-link" href="#">
+                <div class="flavour-title fs-3 lh-large fw-bold text-white">Oolong</div>
+                <div class="flavour-quantity fw-bold text-white">1 sorts</div>
+                  </a>
+               </div>
+
+               <div class="forwd-icon">
+                <a class="forwd-link" href="#">
+                <i class="fa-solid fa-arrow-right"></i>
+                </a>
+               </div>
+
+               </div>
+
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="flavour-wraper">
+               
+                <div class="flavour-image">
+                <a class="f-image" href="#"><img class="img-fluid w-100" src="assets/images/flavour-7.jpg" alt="flavour" width="326" height="326"/></a>
+               </div>
+
+                <div class="flavour-image-wraper" style="background-color: #674E9D;">
+
+                <div class="flavour-detail">
+                  <a class="detail-link" href="#">
+                <div class="flavour-title fs-3 lh-large fw-bold text-white">Ice Tea</div>
+                <div class="flavour-quantity fw-bold text-white">1 sorts</div>
+                  </a>
+               </div>
+
+               <div class="forwd-icon">
+                <a class="forwd-link" href="#">
+                <i class="fa-solid fa-arrow-right"></i>
+                </a>
+               </div>
+
+               </div>
+
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="flavour-wraper">
+               
+                <div class="flavour-image">
+                <a class="f-image" href="#"><img class="img-fluid w-100" src="assets/images/flavour-8.jpg" alt="flavour" width="326" height="326"/></a>
+               </div>
+
+                <div class="flavour-image-wraper" style="background-color: #ABAFD5;">
+
+                <div class="flavour-detail">
+                  <a class="detail-link" href="#">
+                <div class="flavour-title fs-3 lh-large fw-bold text-white">White Tea</div>
+                <div class="flavour-quantity fw-bold text-white">1 sorts</div>
+                  </a>
+               </div>
+
+               <div class="forwd-icon">
+                <a class="forwd-link" href="#">
+                <i class="fa-solid fa-arrow-right"></i>
+                </a>
+               </div>
+
+               </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="background-image position-relative">
+        <div class="background-image-wraper">
+        <img class="img-fluid" src="assets/images/image-back-1.jpg" alt="flavour" width="326" height="326"/>
+        </div>
+      </section>
+      <section class="low-price" id="low-price">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="section-header-content text-center">
+              <div class="section-header-heading display-5 lh-large fw-bold">
+                Why is Schlürf worth a schlurp?
+              </div>
+            </div>
+              <div class="col-md-4">
+                <div class="low-price-content-wraper">
+                  <div class="low-price-content text-center">
+                    <div class="low-price-title fs-2 lh-large fw-bold">Über Quality</div>
+                    <div class="low-price-info">
+                      <p class="lead fs-6 lh-base fw-normal">
+                        All our teas come with über quaity (it’s like premium, only 10 times better). We take our tea stuff seriously. No comprimises.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="low-price-content text-center">
+                    <div class="low-price-title fs-2 lh-large fw-bold">Das Taste</div>
+                    <div class="low-price-info">
+                      <p class="lead fs-6 lh-base fw-normal">
+                        All our teas come with über quaity (it’s like premium, only 10 times better). We take our tea stuff seriously. No comprimises.
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="low-price-content-wraper">
+                  <div class="low-price-content text-center">
+                    <div class="low-price-title fs-2 lh-large fw-bold">Tasted & Tested</div>
+                    <div class="low-price-info">
+                      <p class="lead fs-6 lh-base fw-normal">
+                        All our teas come with über quaity (it’s like premium, only 10 times better). We take our tea stuff seriously. No comprimises.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="low-image text-center">
+                    <img class="img-fluid" src="assets/images/low.png" alt="low image" width:"260" height:"260"/>
+                  </div>
+
+                  <div class="low-price-content text-center">
+                    <div class="low-price-title fs-2 lh-large fw-bold">Eco Friendly</div>
+                    <div class="low-price-info">
+                      <p class="lead fs-6 lh-base fw-normal">
+                        All our teas come with über quaity (it’s like premium, only 10 times better). We take our tea stuff seriously. No comprimises.
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="low-price-content-wraper">
+                  <div class="low-price-content text-center">
+                    <div class="low-price-title fs-2 lh-large fw-bold">Biocertified</div>
+                    <div class="low-price-info">
+                      <p class="lead fs-6 lh-base fw-normal">
+                        All our teas come with über quaity (it’s like premium, only 10 times better). We take our tea stuff seriously. No comprimises.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="low-price-content text-center">
+                    <div class="low-price-title fs-2 lh-large fw-bold">Origin</div>
+                    <div class="low-price-info">
+                      <p class="lead fs-6 lh-base fw-normal">
+                        All our teas come with über quaity (it’s like premium, only 10 times better). We take our tea stuff seriously. No comprimises.
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              
+          
+          </div>
+        </div>
+      </section>
+      <section class="tea-suppose position-relative" id="tea-suppose">
+        <div class="background">
+          <img class="img-fluid" src="assets/images/Discover.jpg"/>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="suppose-wraper position-absolute">
+                <div class="suppose-content text-center">
+                  <div class="suppose-heading text-white display-5 lh-large fw-bold">
+                    Discover what tea is supposed to taste like
+                  </div>
+                  <div class="suppose-button">
+                    <div class="banner-button  text-center"><a class="banner-button-link fw-bold border-0 btn btn-lg" href="#">Start Now</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="recipes" id="recipes">
+        <div class="container">
+          <div class="row">
+            <div class="reciper-content-wraper text-center">
+            <div class="cattle-image">
+              <img class="img-fluid" src="assets/images/cattle.png" alt="cattle" width="390" height="360"/>
+            </div>
+            <div class="section-header-content text-center">
+              <div class="section-header-heading display-5 lh-large fw-bold">
+                Best selling biocertified teas
+              </div>
+              <div class="section-header-discruption mt-3">
+                <p class="lead fs-6 lh-base fw-bold">Tea lovers be delited our assortment has 28 unique tea blends.
+                   Like any super-premium tea,
+                    we start with great organic leaves.
+                   That's why our teas are not just names,
+                   they're personalities.</p>
+              </div>
+            </div>
+            <div class="banner-button  text-center"><a class="banner-button-link fw-bold border-0 btn btn-lg" href="#">Discover</a></div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+            <div class="galler-images-wraper-1">
+              <div class="gallery-image">
+                <img class="img-fluid" src="assets/images/gallery-1.jpg" alt="recipes"/>
+              </div>
+              <div class="gallery-image">
+                <img class="img-fluid" src="assets/images/gallery-2.jpg" alt="recipes"/>
+              </div>
+              <div class="gallery-image gallery-image-in">
+                <img class="img-fluid" src="assets/images/gallery-3.jpg" alt="recipes"/>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+            <div class="galler-images-wraper-2">
+              <div class="gallery-image">
+                <img class="img-fluid" src="assets/images/gallery-4.jpg" alt="recipes"/>
+              </div>
+              <div class="gallery-image">
+                <img class="img-fluid" src="assets/images/gallery-5.jpg" alt="recipes"/>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+              <div class="galler-images-wraper-3">
+              <div class="gallery-image">
+                <img class="img-fluid" src="assets/images/gallery-6.jpg" alt="recipes"/>
+              </div>
+              <div class="gallery-image">
+                <img class="img-fluid" src="assets/images/gallery-7.jpg" alt="recipes"/>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="tea-slider" id="tea-slider">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="slider-1 owl-carousel owl-theme">
+                
+                <div class="item mb-4">
+                 
+              <div class="slider-image-wraper">
+                <a class="slider-iamge-link" href="#"><img class="img-fluid" src="assets/images/slider-image-1.jpg" alt="slider image" width="217" height="217"/></a>
+              </div>
+                  
+                </div>
+                <div class="item mb-4">
+                 
+                  <div class="slider-image-wraper">
+                    <a class="slider-iamge-link" href="#"><img class="img-fluid" src="assets/images/slider-image-2.jpg" alt="slider image" width="217" height="217"/></a>
+                  </div>
+                      
+                    </div>
+                    <div class="item mb-4">
+                 
+                      <div class="slider-image-wraper">
+                        <a class="slider-iamge-link" href="#"><img class="img-fluid" src="assets/images/slider-image-3.jpg" alt="slider image" width="217" height="217"/></a>
+                      </div>
+                          
+                        </div>
+                        <div class="item mb-4">
+                 
+                          <div class="slider-image-wraper">
+                            <a class="slider-iamge-link" href="#"><img class="img-fluid" src="assets/images/slider-image-6.jpg" alt="slider image" width="217" height="217"/></a>
+                          </div>
+                              
+                            </div>
+                        <div class="item mb-4">
+                 
+                          <div class="slider-image-wraper">
+                            <a class="slider-iamge-link" href="#"><img class="img-fluid" src="assets/images/slider-image-4.jpg" alt="slider image" width="217" height="217"/></a>
+                          </div>
+                              
+                            </div>
+                            <div class="item mb-4">
+                 
+                              <div class="slider-image-wraper">
+                                <a class="slider-iamge-link" href="#"><img class="img-fluid" src="assets/images/slider-image-5.jpg" alt="slider image" width="217" height="217"/></a>
+                              </div>
+                                  
+                                </div>
+                                <div class="item mb-4">
+                 
+                                  <div class="slider-image-wraper">
+                                    <a class="slider-iamge-link" href="#"><img class="img-fluid" src="assets/images/slider-image-6.jpg" alt="slider image" width="217" height="217"/></a>
+                                  </div>
+                                      
+                                    </div>
+
+                                    <div class="item mb-4">
+                 
+                                      <div class="slider-image-wraper">
+                                        <a class="slider-iamge-link" href="#"><img class="img-fluid" src="assets/images/slider-image-3.jpg" alt="slider image" width="217" height="217"/></a>
+                                      </div>
+                                          
+                                        </div>
+                                        <div class="item mb-4">
+                                 
+                                          <div class="slider-image-wraper">
+                                            <a class="slider-iamge-link" href="#"><img class="img-fluid" src="assets/images/slider-image-6.jpg" alt="slider image" width="217" height="217"/></a>
+                                          </div>
+                                              
+                                            </div>
+                                        <div class="item mb-4">
+                                 
+                                          <div class="slider-image-wraper">
+                                            <a class="slider-iamge-link" href="#"><img class="img-fluid" src="assets/images/slider-image-4.jpg" alt="slider image" width="217" height="217"/></a>
+                                          </div>
+                                              
+                                            </div>
+                                            <div class="item mb-4">
+                                 
+                                              <div class="slider-image-wraper">
+                                                <a class="slider-iamge-link" href="#"><img class="img-fluid" src="assets/images/slider-image-5.jpg" alt="slider image" width="217" height="217"/></a>
+                                              </div>
+                                                  
+                                                </div>
+                                                <div class="item mb-4">
+                                 
+                                                  <div class="slider-image-wraper">
+                                                    <a class="slider-iamge-link" href="#"><img class="img-fluid" src="assets/images/slider-image-6.jpg" alt="slider image" width="217" height="217"/></a>
+                                                  </div>
+                                                      
+                                                    </div>
+             
+               
+  
+            </div>
+            
+             </div>
+          </div>
+        </div>
+      </section>   
+    </main>
+
+
+ 
+    <footer>
+      <section class="footer-main position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="address-wraper">
+              <div class="address-image">
+                <a class="address-image-link" href="#">
+                  <img class="img-fluid" src="assets/images/logo/footer-logo.png" alt="logo" width="178" height="70"/>
+                </a>
+              </div>
+              <div class="company-addr mb-4">
+                <strong>Schlurf GmbH</strong>. Sickingenstrabe 20-28, 10553 Berlin,Germany
+              </div>
+              <div class="contact-num mb-4">
+                <strong>Contact us at</strong>+49(0) 30-28470068 <strong>or</strong> kontakt@schluer.de
+              </div>
+              <div class="open-h">
+                <strong>Opening hours</strong>:9AM-5PM
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="our-tea">
+              <div class="footer-heading fs-4  ">Our Teas</div>
+              <ul>
+                <li class="footer-nav-item mb-4">
+                  <a class="footer-nav-link" href="#">Black Tea</a>
+                </li>
+                <li class="footer-nav-item mb-4">
+                  <a class="footer-nav-link" href="#">Green Tea</a>
+                </li>
+                <li class="footer-nav-item mb-4">
+                  <a class="footer-nav-link" href="#">Harbal & Vital Tea</a>
+                </li>
+                <li class="footer-nav-item mb-4">
+                  <a class="footer-nav-link">Fruit Tea</a>
+                </li>
+                <li class="footer-nav-item mb-4">
+                  <a class="footer-nav-link" href="#">Roobios</a>
+                </li>
+                <li class="footer-nav-item mb-4">
+                  <a class="footer-nav-link" href="#">Oolang</a>
+                </li>
+                <li class="footer-nav-item mb-4">
+                  <a class="footer-nav-link" href="#">Ice Tea</a>
+                </li>
+                <li class="footer-nav-item">
+                  <a class="footer-nav-link" href="#">White Tea</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="more">
+              <div class="footer-heading fs-4 ">More</div>
+              <ul>
+                <li class="footer-nav-item mb-4">
+                  <a class="footer-nav-link">Gastronomy</a>
+                </li>
+                <li class="footer-nav-item mb-4">
+                  <a class="footer-nav-link">Contact us</a>
+                </li>
+                <li class="footer-nav-item mb-4">
+                  <a class="footer-nav-link">About us</a>
+                </li>
+                <li class="footer-nav-item mb-4">
+                  <a class="footer-nav-link">Terms & Conditions</a>
+                </li>
+                <li class="footer-nav-item mb-4">
+                  <a class="footer-nav-link">Privacy Policy</a>
+                </li>
+                <li class="footer-nav-item mb-4">
+                  <a class="footer-nav-link">Impressum</a>
+                </li>
+                <li class="footer-nav-item">
+                  <a class="footer-nav-link">Shipping & prices</a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="footer-social">
+            <div class="footer-heading fs-4  ">Follow us on Social</div>
+            <ul>
+              <li class="footer-nav-item mb-4">
+                <a class="footer-nav-link" href="#">Instagram</a>
+              </li>
+              <li class="footer-nav-item mb-4">
+                <a class="footer-nav-link" href="#">Facebook</a>
+              </li>
+              <li class="footer-nav-item mb-4">
+                <a class="footer-nav-link" href="#">Real Life</a>
+              </li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </footer>
+    <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"></script>
+<script>
+  $('.slider-1').owlCarousel({
+    loop: false,
+    autoplay:false,
+    margin: 15,
+    nav:true,
+    dots: false,
+    
+    responsive: {
+        0: {
+            items: 1
+        },
+        480: {
+          items: 3
+      },
+        600: {
+            items: 4
+        },
+        1000: {
+            items: 6
+        }
+    }
+})
+    $('.owl-carousel').owlCarousel({
+        loop: false,
+        margin: 15,
+        nav:true,
+        dots: false, 
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 3
+            }
+        }
+    })
+  
+
+   
+    
+
+    
+let mybutton = document.getElementById("btn-back-to-top");
+
+
+window.onscroll = function () {
+scrollFunction();
+};
+
+function scrollFunction() {
+if (
+document.body.scrollTop > 20 ||
+document.documentElement.scrollTop > 20
+) {
+mybutton.style.display = "block";
+} else {
+mybutton.style.display = "none";
+}
+}
+
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+</script>
+  </body>
+</html>
